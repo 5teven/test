@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: project3-server
-        image: docker.io/winfanpum/project3_server:latest
+        image: docker.io/winfanpum/project3_server:0.0.2
         resources:
           requests:
             memory: "256Mi"
